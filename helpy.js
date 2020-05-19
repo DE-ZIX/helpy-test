@@ -1,6 +1,6 @@
-var icon-folder = $('.vgg-folder');
-if (icon-folder.length > 0){
-  icon-folder.each(function(){
+var iconfolder = $('.vgg-folder');
+if (iconfolder.length > 0){
+  iconfolder.each(function(){
     this;
   });
 }
