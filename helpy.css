@@ -187,8 +187,8 @@ body{
 #featured-categories{
   background-color: rgba(42, 56, 91, 0.2);
   margin-top: 430px;
-  margin-left: -30%;
-  width: 160%;
+  margin-left: -35%;
+  width: 170%;
   padding-top: 25px;
   padding-bottom: 50px;
   padding-left: 25%;
@@ -269,7 +269,6 @@ i.circle-icon{
 }
 
 #how-help{
-  font-family: 'Nexa';
   font-weight: bold;
 }
 
@@ -303,4 +302,9 @@ i.circle-icon{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.alert{
+  z-index: 11;
+  position: relative;
 }
