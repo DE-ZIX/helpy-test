@@ -315,6 +315,37 @@ i.circle-icon{
   position: relative;
 }
 
-.page-title h1{
+#pagetitle {
+  padding-top: 60px;
+}
+
+#page-title h1{
   text-align: center;
+  margin-top: 20px;
+}
+
+.edit-row{
+  text-align: center;
+}
+
+#search-form{
+  position: absolute;
+  float: right;
+  margin-left: 55%;
+  margin-top: -165px;
+}
+
+#home-search #search-form{
+  position: inherit;
+  float: none;
+  margin: 0;
+}
+
+.content-row{
+  margin-top: -50px;
+}
+
+ul.breadcrumb {
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
