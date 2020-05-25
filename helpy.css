@@ -253,6 +253,12 @@ i.circle-icon{
   color: #FF8C91;
 }
 
+.gg-performance{
+  color: #5582F5;
+  margin-top: -1px;
+  margin-left: -2px;
+}
+
 #search-field{
   border-radius: 10px;
 }
