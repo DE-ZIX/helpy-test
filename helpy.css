@@ -314,3 +314,7 @@ i.circle-icon{
   z-index: 11;
   position: relative;
 }
+
+.page-title h1{
+  text-align: center;
+}
