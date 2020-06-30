@@ -1,10 +1,19 @@
 <script>
   $(document).ready(function(){
+    if(document.title === ':' || document.title === ': ')
+      document.title = 'AppsecFlow - Helpy';
+    else
+      document.title = 'AppsecFlow - Helpy - ' + document.title.substring(1, document.title.length);
     var icons = $('[class*=" glyphicon-gg-"]');
     if (icons.length > 0){
       icons.each(function(){
         this.innerHTML = "<i class=" + this.className.substring(this.className.indexOf("gg-"), this.className.length) + "></i>"
       });
+    }
+    var community = $('#category-24');
+    if (community.length > 0){
+      community = community[0]
+      community.href = location.pathname + '/community';
     }
   });
 </script>
